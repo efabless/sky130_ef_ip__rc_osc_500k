@@ -1,0 +1,81 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO sky130_ef_ip__rc_osc_500k
+  CLASS BLOCK ;
+  FOREIGN sky130_ef_ip__rc_osc_500k ;
+  ORIGIN -21.940 28.370 ;
+  SIZE 61.210 BY 53.620 ;
+  PIN avdd
+    ANTENNADIFFAREA 148.310989 ;
+    PORT
+      LAYER met2 ;
+        RECT 21.940 10.135 82.210 20.105 ;
+    END
+  END avdd
+  PIN avss
+    ANTENNADIFFAREA 114.014595 ;
+    PORT
+      LAYER met2 ;
+        RECT 21.940 -23.030 23.535 -13.060 ;
+    END
+  END avss
+  PIN dvss
+    ANTENNADIFFAREA 6.628900 ;
+    PORT
+      LAYER met1 ;
+        RECT 81.260 3.450 83.150 7.235 ;
+    END
+  END dvss
+  PIN dvdd
+    ANTENNADIFFAREA 3.347000 ;
+    PORT
+      LAYER met1 ;
+        RECT 81.260 -10.200 83.150 -6.415 ;
+    END
+  END dvdd
+  PIN ena
+    ANTENNAGATEAREA 0.795000 ;
+    ANTENNADIFFAREA 0.202500 ;
+    PORT
+      LAYER met2 ;
+        RECT 82.150 -4.440 83.150 -3.440 ;
+    END
+  END ena
+  PIN dout
+    ANTENNADIFFAREA 0.556800 ;
+    PORT
+      LAYER met2 ;
+        RECT 82.150 -0.220 83.150 0.780 ;
+    END
+  END dout
+  OBS
+      LAYER nwell ;
+        RECT 21.940 23.640 83.150 25.250 ;
+        RECT 21.940 -26.760 23.550 23.640 ;
+        RECT 21.940 -28.370 83.150 -26.760 ;
+      LAYER li1 ;
+        RECT 22.370 -27.905 82.695 24.810 ;
+      LAYER met1 ;
+        RECT 22.370 7.515 82.700 22.630 ;
+        RECT 22.370 3.170 80.980 7.515 ;
+        RECT 22.370 -6.135 82.700 3.170 ;
+        RECT 22.370 -10.480 80.980 -6.135 ;
+        RECT 22.370 -25.780 82.700 -10.480 ;
+      LAYER met2 ;
+        RECT 82.490 9.855 83.150 20.110 ;
+        RECT 22.400 1.060 83.150 9.855 ;
+        RECT 22.400 -0.500 81.870 1.060 ;
+        RECT 22.400 -3.160 83.150 -0.500 ;
+        RECT 22.400 -4.720 81.870 -3.160 ;
+        RECT 22.400 -12.780 83.150 -4.720 ;
+        RECT 23.815 -23.030 83.150 -12.780 ;
+      LAYER met3 ;
+        RECT 33.100 -14.690 59.375 -0.385 ;
+      LAYER met4 ;
+        RECT 33.495 -10.520 59.275 -0.380 ;
+  END
+END sky130_ef_ip__rc_osc_500k
+END LIBRARY
+
