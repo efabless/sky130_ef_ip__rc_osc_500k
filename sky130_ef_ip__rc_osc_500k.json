@@ -1,0 +1,31 @@
+{
+    "info": {
+        "name": "sky130_ef_ip__rc_osc_500k",
+        "description": "A 500kHz oscillator using a current-starved ring oscillator",
+        "repo": "github.com/efabless/sky130_ef_ip__rc_osc_500k",
+        "owner": "Efabless Corp.",
+        "license": "APACHE 2.0",
+        "author": "Tim Edwards",
+        "email": "tim@efabless.com",
+        "version": "v1.0.0",
+        "date": "1-11-2023",
+        "category": "analog",
+        "tags": [
+            "ring oscillator",
+            "low power"
+        ],
+        "bus": [
+            "n/a"
+        ],
+        "type": "hard",
+        "status": "verified",
+        "cell_count": "n/a",
+        "width": "61.21",
+        "height": "53.62",
+        "technology": "sky130",
+        "clock_freq_mhz": "0.5",
+        "supply_voltage": [
+            "1.8"
+        ]
+    }
+}
