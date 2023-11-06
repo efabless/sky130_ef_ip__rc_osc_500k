@@ -124,6 +124,7 @@ Flattening unmatched subcell sky130_fd_pr__nfet_01v8_L9WNCD in circuit sky130_ef
 Flattening unmatched subcell sky130_fd_pr__diode_pw2nd_05v5_FT76RJ in circuit sky130_ef_ip__rc_osc_500k (0)(1 instance)
 Flattening unmatched subcell sky130_fd_pr__pfet_01v8_LGS3BL in circuit sky130_ef_ip__rc_osc_500k (0)(1 instance)
 Flattening unmatched subcell sky130_fd_pr__cap_mim_m3_1_AZFCP3 in circuit sky130_ef_ip__rc_osc_500k (0)(5 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2Z69BZ in circuit sky130_ef_ip__rc_osc_500k (0)(1 instance)
 
 Class sky130_ef_ip__rc_osc_500k (0):  Merged 135 series devices.
 Subcircuit summary:
@@ -135,9 +136,9 @@ sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)
 sky130_fd_pr__res_xhigh_po_0p35 (136->1)   |sky130_fd_pr__res_xhigh_po_0p35 (1)        
 level_shifter (1)                          |level_shifter (1)                          
 sky130_fd_pr__diode_pw2nd_05v5 (1)         |sky130_fd_pr__diode_pw2nd_05v5 (1)         
-sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
 sky130_fd_pr__cap_mim_m3_1 (5)             |sky130_fd_pr__cap_mim_m3_1 (5)             
-Number of devices: 50                      |Number of devices: 50                      
+Number of devices: 51                      |Number of devices: 51                      
 Number of nets: 37                         |Number of nets: 37                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
@@ -145,15 +146,14 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: sky130_ef_ip__rc_osc_500k       |Circuit 2: sky130_ef_ip__rc_osc_500k       
 -------------------------------------------|-------------------------------------------
+ena                                        |ena                                        
 dvss                                       |dvss                                       
 dout                                       |dout                                       
-dvdd                                       |dvdd                                       
-ena                                        |ena                                        
 avdd                                       |avdd                                       
+dvdd                                       |dvdd                                       
 avss                                       |avss                                       
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_ef_ip__rc_osc_500k and sky130_ef_ip__rc_osc_500k are equivalent.
 
 Final result: Circuits match uniquely.
-.

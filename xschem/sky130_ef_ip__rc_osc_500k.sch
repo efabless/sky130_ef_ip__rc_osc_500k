@@ -1,4 +1,4 @@
-v {xschem version=3.4.5 file_version=1.2
+v {xschem version=3.4.4 file_version=1.2
 }
 G {}
 K {}
@@ -156,23 +156,23 @@ lab=avss}
 N 930 640 1050 640 {
 lab=dvss}
 N 550 570 550 610 {
-lab=#net4}
+lab=dout0}
 N 550 670 550 700 {
-lab=#net5}
+lab=#net4}
 N 930 570 930 610 {
 lab=dout}
 N 930 670 930 700 {
-lab=#net6}
+lab=#net5}
 N 400 730 460 730 {
 lab=out0}
 N 550 590 790 590 {
-lab=#net4}
+lab=dout0}
 N 790 540 890 540 {
-lab=#net4}
+lab=dout0}
 N 790 540 790 730 {
-lab=#net4}
+lab=dout0}
 N 790 730 890 730 {
-lab=#net4}
+lab=dout0}
 N 180 -50 210 -50 {
 lab=#net1}
 N 180 50 210 50 {
@@ -182,13 +182,13 @@ lab=ena}
 N 0 -170 110 -170 {
 lab=avdd}
 N 620 80 620 100 {
-lab=#net7}
+lab=#net6}
 N 620 130 690 130 {
 lab=avss}
 N 620 160 620 180 {
 lab=avss}
 N 620 -100 620 -80 {
-lab=#net8}
+lab=#net7}
 N 620 -170 620 -160 {
 lab=avdd}
 N 620 -130 720 -130 {
@@ -200,13 +200,13 @@ lab=avdd}
 N 250 -170 250 -160 {
 lab=avdd}
 N 250 -100 250 -80 {
-lab=#net9}
+lab=#net8}
 N -110 -100 -110 -80 {
-lab=#net10}
+lab=#net9}
 N -110 -170 -110 -160 {
 lab=avdd}
 N -110 90 -110 110 {
-lab=#net11}
+lab=#net10}
 N -110 140 -30 140 {
 lab=avss}
 N -110 170 -110 180 {
@@ -214,7 +214,7 @@ lab=avss}
 N 250 160 250 180 {
 lab=avss}
 N 250 80 250 100 {
-lab=#net12}
+lab=#net11}
 N 250 130 320 130 {
 lab=avss}
 N -270 -130 -150 -130 {
@@ -246,7 +246,7 @@ lab=nbias}
 N -590 -120 -530 -120 {
 lab=avss}
 N -510 -90 -510 20 {
-lab=#net13}
+lab=#net12}
 N -450 140 -400 140 {
 lab=nbias}
 N -210 140 -150 140 {
@@ -307,28 +307,16 @@ N -150 590 -80 590 {
 lab=pbias}
 N 830 640 890 640 {
 lab=ena}
-N 10 740 70 740 {
-lab=enb}
-N 110 660 110 710 {
-lab=dout}
-N 110 660 150 660 {
-lab=dout}
-N 110 770 110 810 {
-lab=dvss}
-N 110 810 220 810 {
-lab=dvss}
-N 200 740 200 810 {
-lab=dvss}
 N -360 100 -360 110 {
-lab=#net14}
+lab=#net13}
 N -360 100 -310 100 {
-lab=#net14}
+lab=#net13}
 N -310 90 -310 100 {
-lab=#net14}
+lab=#net13}
 N -310 20 -310 30 {
 lab=pbias}
 N -310 80 -310 90 {
-lab=#net14}
+lab=#net13}
 N -310 50 -240 50 {
 lab=avss}
 N -240 50 -240 180 {
@@ -380,7 +368,7 @@ lab=avdd}
 N 970 180 1030 180 {
 lab=avss}
 N 970 -20 970 20 {
-lab=#net15}
+lab=#net14}
 N 900 -50 900 50 {
 lab=#net3}
 N 970 50 1040 50 {
@@ -398,13 +386,13 @@ lab=avdd}
 N 1300 180 1360 180 {
 lab=avss}
 N 1300 -20 1300 20 {
-lab=#net16}
+lab=#net15}
 N 1210 -50 1260 -50 {
-lab=#net15}
+lab=#net14}
 N 1190 -50 1190 50 {
-lab=#net15}
+lab=#net14}
 N 1210 50 1260 50 {
-lab=#net15}
+lab=#net14}
 N 1300 50 1370 50 {
 lab=avss}
 N 1370 50 1370 110 {
@@ -434,23 +422,23 @@ lab=avss}
 N 1040 50 1040 180 {
 lab=avss}
 N 1190 -50 1210 -50 {
-lab=#net15}
+lab=#net14}
 N 1190 50 1210 50 {
-lab=#net15}
+lab=#net14}
 N 970 0 1120 0 {
-lab=#net15}
+lab=#net14}
 N 900 -50 930 -50 {
 lab=#net3}
 N 900 50 930 50 {
 lab=#net3}
 N 1300 80 1300 100 {
-lab=#net17}
+lab=#net16}
 N 1300 130 1370 130 {
 lab=avss}
 N 1300 160 1300 180 {
 lab=avss}
 N 1300 -100 1300 -80 {
-lab=#net18}
+lab=#net17}
 N 1300 -170 1300 -160 {
 lab=avdd}
 N 1300 -130 1400 -130 {
@@ -460,11 +448,11 @@ lab=avdd}
 N 970 -170 970 -160 {
 lab=avdd}
 N 970 -100 970 -80 {
-lab=#net19}
+lab=#net18}
 N 970 160 970 180 {
 lab=avss}
 N 970 80 970 100 {
-lab=#net20}
+lab=#net19}
 N 970 130 1040 130 {
 lab=avss}
 N 850 -130 930 -130 {
@@ -482,7 +470,7 @@ lab=avdd}
 N 690 180 970 180 {
 lab=avss}
 N 1300 0 1500 0 {
-lab=#net16}
+lab=#net15}
 N 420 540 420 730 {
 lab=out0}
 N 420 540 510 540 {
@@ -493,16 +481,14 @@ N 1050 640 1050 820 {
 lab=dvss}
 N 930 590 1130 590 {
 lab=dout}
-N 110 740 200 740 {
-lab=dvss}
 N 1660 -170 1730 -170 {
 lab=avdd}
 N 1660 180 1720 180 {
 lab=avss}
 N 1660 -20 1660 20 {
-lab=#net21}
+lab=#net20}
 N 1590 -50 1590 50 {
-lab=#net16}
+lab=#net15}
 N 1660 50 1730 50 {
 lab=avss}
 N 1720 180 1750 180 {
@@ -520,11 +506,11 @@ lab=avss}
 N 1920 -20 1920 20 {
 lab=out0}
 N 1830 -50 1880 -50 {
-lab=#net21}
+lab=#net20}
 N 1810 -50 1810 50 {
-lab=#net21}
+lab=#net20}
 N 1830 50 1880 50 {
-lab=#net21}
+lab=#net20}
 N 1920 50 1990 50 {
 lab=avss}
 N 1990 50 1990 110 {
@@ -554,23 +540,23 @@ lab=avss}
 N 1730 50 1730 180 {
 lab=avss}
 N 1810 -50 1830 -50 {
-lab=#net21}
+lab=#net20}
 N 1810 50 1830 50 {
-lab=#net21}
+lab=#net20}
 N 1660 0 1810 0 {
-lab=#net21}
+lab=#net20}
 N 1590 -50 1620 -50 {
-lab=#net16}
+lab=#net15}
 N 1590 50 1620 50 {
-lab=#net16}
+lab=#net15}
 N 1920 80 1920 100 {
-lab=#net22}
+lab=#net21}
 N 1920 130 1990 130 {
 lab=avss}
 N 1920 160 1920 180 {
 lab=avss}
 N 1920 -100 1920 -80 {
-lab=#net23}
+lab=#net22}
 N 1920 -170 1920 -160 {
 lab=avdd}
 N 1920 -130 2020 -130 {
@@ -580,11 +566,11 @@ lab=avdd}
 N 1660 -170 1660 -160 {
 lab=avdd}
 N 1660 -100 1660 -80 {
-lab=#net24}
+lab=#net23}
 N 1660 160 1660 180 {
 lab=avss}
 N 1660 80 1660 100 {
-lab=#net25}
+lab=#net24}
 N 1660 130 1730 130 {
 lab=avss}
 N 1540 -130 1620 -130 {
@@ -614,9 +600,9 @@ lab=avdd}
 N 1570 180 1660 180 {
 lab=avss}
 N 1500 0 1590 0 {
-lab=#net16}
+lab=#net15}
 N 1480 0 1480 40 {
-lab=#net16}
+lab=#net15}
 N 1480 100 1480 180 {
 lab=avss}
 N 510 -170 620 -170 {
@@ -630,9 +616,9 @@ lab=avss}
 N 1230 -170 1300 -170 {
 lab=avdd}
 N 1120 -0 1180 -0 {
-lab=#net15}
+lab=#net14}
 N 1180 -0 1190 -0 {
-lab=#net15}
+lab=#net14}
 N 610 180 620 180 {
 lab=avss}
 N 410 10 410 40 {
@@ -642,11 +628,41 @@ lab=avss}
 N 410 0 410 10 {
 lab=#net2}
 N 1130 10 1130 40 {
-lab=#net15}
+lab=#net14}
 N 1130 100 1130 180 {
 lab=avss}
 N 1130 0 1130 10 {
-lab=#net15}
+lab=#net14}
+N 150 440 150 500 {
+lab=dvdd}
+N 150 440 280 440 {
+lab=dvdd}
+N 150 530 230 530 {
+lab=dvdd}
+N 230 440 230 530 {
+lab=dvdd}
+N 60 530 110 530 {
+lab=ena}
+N 150 560 150 590 {
+lab=dout0}
+N 150 590 210 590 {
+lab=dout0}
+N 160 630 160 680 {
+lab=dout}
+N 160 630 230 630 {
+lab=dout}
+N 70 710 120 710 {
+lab=enb}
+N 160 740 160 790 {
+lab=dvss}
+N 160 790 230 790 {
+lab=dvss}
+N 160 710 250 710 {
+lab=dvss}
+N 250 710 250 790 {
+lab=dvss}
+N 230 790 260 790 {
+lab=dvss}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} -130 60 0 0 {name=M1
 L=0.5
 W=0.42
@@ -1020,23 +1036,6 @@ C {devices/lab_wire.sym} -10 520 0 0 {name=p41 sig_type=std_logic lab=ena_h}
 C {devices/lab_wire.sym} -80 590 0 0 {name=p42 sig_type=std_logic lab=pbias
 }
 C {devices/lab_wire.sym} 460 640 0 1 {name=p43 sig_type=std_logic lab=ena}
-C {sky130_fd_pr/nfet_01v8.sym} 90 740 0 0 {name=M35
-L=0.15
-W=0.42
-nf=1
-mult=1
-ad="'int((nf+1)/2) * W/nf * 0.29'" 
-pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
-as="'int((nf+2)/2) * W/nf * 0.29'" 
-ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
-nrd="'0.29 / W'" nrs="'0.29 / W'"
-sa=0 sb=0 sd=0
-model=nfet_01v8
-spiceprefix=X
-}
-C {devices/lab_wire.sym} 10 740 0 1 {name=p44 sig_type=std_logic lab=enb}
-C {devices/lab_wire.sym} 150 660 0 0 {name=p45 sig_type=std_logic lab=dout}
-C {devices/lab_pin.sym} 220 810 2 0 {name=p46 sig_type=std_logic lab=dvss}
 C {sky130_fd_pr/nfet_g5v0d10v5.sym} -330 50 0 0 {name=M36
 L=0.5
 W=0.42
@@ -1314,3 +1313,38 @@ C {sky130_fd_pr/cap_mim_m3_1.sym} 790 70 0 0 {name=C2 model=cap_mim_m3_1 W=3 L=6
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1480 70 0 0 {name=C3 model=cap_mim_m3_1 W=3 L=6 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 410 70 0 0 {name=C4 model=cap_mim_m3_1 W=3 L=6 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 1130 70 0 0 {name=C5 model=cap_mim_m3_1 W=3 L=6 MF=1 spiceprefix=X}
+C {sky130_fd_pr/pfet_01v8.sym} 130 530 0 0 {name=M43
+L=0.15
+W=0.42
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=pfet_01v8
+spiceprefix=X
+}
+C {devices/lab_wire.sym} 60 530 0 1 {name=p11 sig_type=std_logic lab=ena}
+C {devices/lab_wire.sym} 210 590 0 0 {name=p25 sig_type=std_logic lab=dout0}
+C {devices/lab_wire.sym} 280 440 0 0 {name=p30 sig_type=std_logic lab=dvdd}
+C {sky130_fd_pr/nfet_01v8.sym} 140 710 0 0 {name=M35
+L=0.15
+W=0.42
+nf=1
+mult=1
+ad="'int((nf+1)/2) * W/nf * 0.29'" 
+pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
+as="'int((nf+2)/2) * W/nf * 0.29'" 
+ps="'2*int((nf+2)/2) * (W/nf + 0.29)'"
+nrd="'0.29 / W'" nrs="'0.29 / W'"
+sa=0 sb=0 sd=0
+model=nfet_01v8
+spiceprefix=X
+}
+C {devices/lab_wire.sym} 720 590 0 0 {name=p34 sig_type=std_logic lab=dout0}
+C {devices/lab_wire.sym} 230 630 0 0 {name=p35 sig_type=std_logic lab=dout}
+C {devices/lab_wire.sym} 70 710 0 1 {name=p36 sig_type=std_logic lab=enb}
+C {devices/lab_pin.sym} 260 790 0 1 {name=p44 sig_type=std_logic lab=dvss}

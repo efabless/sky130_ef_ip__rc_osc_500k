@@ -1,4 +1,4 @@
-Netgen 1.5.255 compiled on Fri Oct 27 10:10:57 EDT 2023
+Netgen 1.5.241 compiled on Mon 22 May 2023 02:45:01 PM EDT
 Warning: netgen command 'format' use fully-qualified name '::netgen::format'
 Warning: netgen command 'global' use fully-qualified name '::netgen::global'
 Reading netlist file ../netlist/lvs/sky130_ef_ip__rc_osc_500k.spice
@@ -188,23 +188,23 @@ Circuit 1 contains 10 nets,    Circuit 2 contains 10 nets.
 
 
 Contents of circuit 1:  Circuit: 'sky130_ef_ip__rc_osc_500k'
-Circuit sky130_ef_ip__rc_osc_500k contains 185 device instances.
+Circuit sky130_ef_ip__rc_osc_500k contains 186 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
   Class: level_shifter         instances:   1
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   5
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances: 136
-  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  21
   Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  17
 Circuit contains 172 nets.
 Contents of circuit 2:  Circuit: 'sky130_ef_ip__rc_osc_500k'
-Circuit sky130_ef_ip__rc_osc_500k contains 50 device instances.
+Circuit sky130_ef_ip__rc_osc_500k contains 51 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
   Class: level_shifter         instances:   1
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   5
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   1
-  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  21
   Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  17
@@ -214,34 +214,38 @@ Circuit was modified by parallel/series device merging.
 New circuit summary:
 
 Contents of circuit 1:  Circuit: 'sky130_ef_ip__rc_osc_500k'
-Circuit sky130_ef_ip__rc_osc_500k contains 50 device instances.
+Circuit sky130_ef_ip__rc_osc_500k contains 51 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
   Class: level_shifter         instances:   1
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   5
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   1
-  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  21
   Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  17
 Circuit contains 37 nets.
 Contents of circuit 2:  Circuit: 'sky130_ef_ip__rc_osc_500k'
-Circuit sky130_ef_ip__rc_osc_500k contains 50 device instances.
+Circuit sky130_ef_ip__rc_osc_500k contains 51 device instances.
   Class: sky130_fd_pr__nfet_01v8 instances:   3
   Class: level_shifter         instances:   1
   Class: sky130_fd_pr__cap_mim_m3_1 instances:   5
   Class: sky130_fd_pr__res_xhigh_po_0p35 instances:   1
-  Class: sky130_fd_pr__pfet_01v8 instances:   1
+  Class: sky130_fd_pr__pfet_01v8 instances:   2
   Class: sky130_fd_pr__nfet_g5v0d10v5 instances:  21
   Class: sky130_fd_pr__diode_pw2nd_05v5 instances:   1
   Class: sky130_fd_pr__pfet_g5v0d10v5 instances:  17
 Circuit contains 37 nets.
 
-Circuit 1 contains 50 devices, Circuit 2 contains 50 devices.
+Circuit 1 contains 51 devices, Circuit 2 contains 51 devices.
 Circuit 1 contains 37 nets,    Circuit 2 contains 37 nets.
 
 
 Final result: 
 Circuits match uniquely.
-.
+Property errors were found.
+
+The following cells had property errors:
+ sky130_ef_ip__rc_osc_500k
+
 Logging to file "rc_osc_500k_comp.out" disabled
 LVS Done.
