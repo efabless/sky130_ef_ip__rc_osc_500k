@@ -157,3 +157,4 @@ Cell pin lists are equivalent.
 Device classes sky130_ef_ip__rc_osc_500k and sky130_ef_ip__rc_osc_500k are equivalent.
 
 Final result: Circuits match uniquely.
+.

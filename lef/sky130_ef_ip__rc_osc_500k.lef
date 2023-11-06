@@ -29,14 +29,14 @@ MACRO sky130_ef_ip__rc_osc_500k
     END
   END dvss
   PIN dvdd
-    ANTENNADIFFAREA 3.347000 ;
+    ANTENNADIFFAREA 4.280700 ;
     PORT
       LAYER met1 ;
         RECT 81.260 -10.200 83.150 -6.415 ;
     END
   END dvdd
   PIN ena
-    ANTENNAGATEAREA 0.795000 ;
+    ANTENNAGATEAREA 0.858000 ;
     ANTENNADIFFAREA 0.202500 ;
     PORT
       LAYER met2 ;
